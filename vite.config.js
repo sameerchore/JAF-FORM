@@ -3,8 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/JAF-FORM/'   // 🔥 REQUIRED for GitHub Pages
+  base: '/JAF-FORM/'   // ✅ MATCH REPO NAME EXACTLY
 })
-
-
-
